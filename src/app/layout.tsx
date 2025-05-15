@@ -8,10 +8,10 @@ import "@/styles/global.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Next.js for Drupal",
-    template: "%s | Next.js for Drupal",
+    default: "BuitenBijOns - Kamperen",
+    template: "",
   },
-  description: "A Next.js site powered by a Drupal backend.",
+  description: "Welcome op BuitenBijOns, de meest bezochte kampings website van de benelux.",
   icons: {
     icon: "/favicon.ico",
   },
