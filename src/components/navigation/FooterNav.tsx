@@ -5,10 +5,10 @@ const FooterNav = () => {
     <nav className="flex justify-between">
       <div>@2025 BuitenBijOns</div>
       <div>
-        <ul>
+        <ul className="flex gap-5">
           <li>
             <Link className="hover:text-blue-600" href="/contact">
-              Contact Us
+              Contacteer Ons
             </Link>
           </li>
           <li>

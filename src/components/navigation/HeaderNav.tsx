@@ -13,13 +13,13 @@ const HeaderNav = () => {
           </Link>
         </li>
         <li>
-          <Link className="text-gray-600 hover:text-blue-600" href="/about">
-            About
+          <Link className="text-gray-600 hover:text-blue-600" href="/overons">
+            Over Ons
           </Link>
         </li>
         <li>
-          <Link className="text-gray-600 hover:text-blue-600" href="/campings">
-            Campings
+          <Link className="text-gray-600 hover:text-blue-600" href="/kampings">
+            Kampings
           </Link>
         </li>
         <li>

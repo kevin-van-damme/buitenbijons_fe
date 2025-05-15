@@ -34,10 +34,6 @@ export default async function Home() {
             <ul>
               <li>
                 <ArticleTeaser node={node} />
-                <ArticleTeaser node={node} />
-                <ArticleTeaser node={node} />
-                <ArticleTeaser node={node} />
-                <ArticleTeaser node={node} />
               </li>
             </ul>
           </div>
