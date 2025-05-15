@@ -28,16 +28,20 @@ export default async function Home() {
   return (
     <>
       <h1 className="mb-10 text-6xl font-black">Latest Articles.</h1>
-      {nodes?.length ? (
+      {nodes &&
         nodes.map((node) => (
           <div key={node.id}>
-            <ArticleTeaser node={node} />
-            <hr className="my-20" />
+            <ul>
+              <li>
+                <ArticleTeaser node={node} />
+                <ArticleTeaser node={node} />
+                <ArticleTeaser node={node} />
+                <ArticleTeaser node={node} />
+                <ArticleTeaser node={node} />
+              </li>
+            </ul>
           </div>
-        ))
-      ) : (
-        <p className="py-4">No nodes found</p>
-      )}
+        ))}
     </>
   );
 }
