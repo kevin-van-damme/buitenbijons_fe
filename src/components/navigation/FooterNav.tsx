@@ -9,7 +9,7 @@ const FooterNav = () => {
           <ul>
             <li>
               <Link className="hover:text-blue-600" href="/contact">
-                Contacteer Ons
+                Contact us
               </Link>
             </li>
             <li>
