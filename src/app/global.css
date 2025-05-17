@@ -1,0 +1,40 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import "tailwindcss";
+body {
+  margin: 0 auto;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  #header {
+    background-color: lightblue;
+    div {
+      padding: 2rem;
+      margin: 0 auto;
+      max-width: 1280px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      nav ul {
+        display: flex;
+        gap: 2rem;
+      }
+    }
+  }
+  #footer {
+    background-color: lightblue;
+    div {
+      padding: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1280px;
+      margin: 0 auto;
+      ul {
+        display: flex;
+        gap: 1rem;
+      }
+    }
+  }
+}
