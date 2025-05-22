@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "agent": "^0.0.4",
+    "drupal-jsonapi-params": "^2.3.2",
     "https": "^1.0.0",
     "next": "15.3.2",
     "next-drupal": "^2.0.0",
