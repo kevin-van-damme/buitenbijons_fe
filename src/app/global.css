@@ -9,6 +9,7 @@ body {
   line-height: 1.4rem;
   #header {
     background-color: lightblue;
+
     div {
       padding: 2rem;
       margin: 0 auto;
@@ -17,6 +18,7 @@ body {
       justify-content: space-between;
       align-items: center;
       nav ul {
+        position: relative;
         display: flex;
         gap: 2rem;
       }

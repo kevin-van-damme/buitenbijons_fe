@@ -1,4 +1,5 @@
 import Link from "next/link";
+import UserDropDown from "./UserDropDown";
 
 const HeaderNav = () => {
   return (
@@ -23,19 +24,7 @@ const HeaderNav = () => {
               </Link>
             </li>
             <li>
-              <Link className="text-gray-600 hover:text-blue-600" href="/login">
-                Login
-              </Link>
-            </li>
-            <li>
-              <Link className="text-gray-600 hover:text-blue-600" href="/profile">
-                Profile
-              </Link>
-            </li>
-            <li>
-              <Link className="text-gray-600 hover:text-blue-600" href="/register">
-                Register
-              </Link>
+              <UserDropDown />
             </li>
           </ul>
         </nav>
