@@ -22,7 +22,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body>
         <DraftAlert />
         <HeaderNav />
-        <main className="container max-w-7xl mx-auto py-10">{children}</main>
+        <main className="container max-w-6xl mx-auto py-10">{children}</main>
         <FooterNav />
       </body>
     </html>
